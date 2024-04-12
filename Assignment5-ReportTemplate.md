@@ -2,12 +2,13 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:       |   |
-|-----------------|---|
-| Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Group \#:      |  17   |
+| -------------- | --- |
+| Student Names: | Mustayeen Abedin    |
+|                |  Nur-Alhuda Ali   |
+|                |  Brandon Lac   |
+|                |  Mevin Moncy   |
+|                |  Kate Reimann   |
 
 # Introduction
 
