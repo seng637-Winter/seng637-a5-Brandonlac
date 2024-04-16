@@ -32,7 +32,25 @@ BIC, conversely, imposes a stricter penalty that increases with sample size, fav
 
 As depicted in the table, DW3 with covariates F and GM with covariate F gave the lowest scores for AIC and BIC. Thus being the most predictable for failure. With score of 122.199 (AIC), 127.935 (BIC) for DW3 Discrete Weibull Type 3 model covariant F and 125.323 (AIC), 129.625 (BIC) for GM Geometric Model. 
 
-The range analysis was done using 
+## Range analysis  
+
+The range analysis was done using excel for Laplace calculations, the useful range of data was found to be roughly 80% mostly exclusing the outer boundaries of the failture data. This is probably due to the infancy stage and the wear out stage of the software development reliablity, also known as the bathtub curve.
+
+## A discussion on decision making given a target failure rate
+
+Setting a target failure rate is essential for guiding decisions in system maintenance and performance improvement. When actual failure rates near the target, it prompts actions like enhanced monitoring or maintenance. If rates consistently exceed the target, this may necessitate system redesign. Meeting targets comfortably could lead to resource reallocation. These decisions aim to balance reliability with resource optimization.
+
+## Advantages of Reliability Growth Models
+
+Advantages of Reliablity Growth Models:
+1. Insight : Models are useful in predicting the reliablity over time, helps organizations make informed decisions in anticiptation of failures and to plan ahead.
+2. Risk Reduction: By undestanding how the software reliablity changes with modifications, it can be used to reduce the risk of the system failure.
+3. Allocation of resources: It helps organizations focus maintenance and testing efforts where they are most needed
+
+Disadvantages of Reliablity Growth Models:
+1. Dependent on the quality and quantity of the data, if the data is not accurate or tested correctly, could led to poor decisions.
+2. Performing this type of analysis is time consuming with the calcuations for usefulness of the range and anaylsis overall about the system.
+3. Diminishing returns as the system matures, the cost of achieving additional reliablity is extensive, outweighing the benefits.
 # Assessment Using Reliability Demonstration Chart 
 
 # 
