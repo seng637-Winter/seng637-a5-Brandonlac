@@ -78,6 +78,5 @@ The interpretation of the data was another difficulity that we had to overcome. 
 
 A lesson learnt from this assignment was that there are different intrepeations of which metric to use in order to find the best model that fits the failure data. There are pros and cons of each and all of the interperations are correct provided that there is a sound explaination.
 
-The second difficulity was we
 # Comments/feedback on the lab itself
 The data itself was confusing at first to read through and to interpret, we decided to use the time interval as a constant and assumed that the failures were uniformly distrubuted within the time interval in order to find the time between failures. We would suggest that the assignment would specified this as it was a road block for us.
