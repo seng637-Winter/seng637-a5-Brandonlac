@@ -58,6 +58,11 @@ Disadvantages of Reliablity Growth Models:
 
 For the purposes of the assignment, values of Developer's Risk α (0.1), User's Risk β (0.1), and Discrimination Ratio γ (2) were left as the default. 
 
+The failures was broken down uniformly within the interval as shown in the table below. For the first interval, there were 2 failure counts thus the time between failure was 0.5 for each. The second interval had 11 failures, evenly distributed would be 0.09 interval between each failure. 
+
+![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/f76719b8-7a6f-4728-8602-4c1bf21d92da)
+
+
 
 # 
 
@@ -70,7 +75,7 @@ The work was divided into the two parts of Reliability Growth Testing done by Br
 # 
 
 # Difficulties encountered, challenges overcome, and lessons learned
-The first difficulity that was incountered was getting SRTAT to open, we faced errors in the data not being in the correct format and then was forced to use the C-SFRAT tool and did. As shown in the figure below.
+The first difficulity that was incountered was getting SRTAT to open, we faced errors in the data not being in the correct format and then was forced to use the C-SFRAT tool and did. As shown in the figure below. The cumulative time was calculated by adding the previous time and the time between failure.
 ![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/413c8bf0-1ef6-4e60-99f0-ceb91165b85f)
 
 
