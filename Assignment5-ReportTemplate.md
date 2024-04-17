@@ -58,7 +58,8 @@ Disadvantages of Reliablity Growth Models:
 
 For the purposes of the assignment, values of Developer's Risk α (0.1), User's Risk β (0.1), and Discrimination Ratio γ (2) were left as the default. 
 
-![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/f76719b8-7a6f-4728-8602-4c1bf21d92da)
+![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/329016f5-a807-450e-9a15-699cf5c9b3de)
+
 
 The failures was broken down uniformly within the interval as shown in the table above. For the first interval, there were 2 failure counts thus the time between failure was 0.5 for each. The second interval had 11 failures, evenly distributed would be 0.09 interval between each failure. 
 
