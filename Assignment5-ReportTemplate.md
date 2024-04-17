@@ -62,7 +62,17 @@ The failures was broken down uniformly within the interval as shown in the table
 
 ![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/f76719b8-7a6f-4728-8602-4c1bf21d92da)
 
+Plotting the original data with zero of the data points being acceptable, with the acceptable failures of 92 failures per 31 intervals. MTTR = 31/ 92 = 0.33 intervals per failure being the acceptable rate. As shown in the figure below.
+![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/916cd402-0a20-4d05-ac12-370047e55bbe)
 
+Finding the minimum MTTR involved changing the maximum number of failures in order to make all the points of the data from SUT (System Under Test) outside of the unacceptable range. By trial and error, we acheived this by setting the acceptable range of 720 failures over 31 intervals. MTTR = 31/720 = 0.0430 intervals per failure being the acceptable rate. FIO = 720 / 31 = 23 failures per interval. As shown in the figure below.
+![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/a98106de-15ad-48e4-a70b-321fba49085c)
+
+Taking the MTTR of 0.0430 intervals per failure and halving it produced the figure below, showing less of the area being covered in the red (unacceptable range), less of our points are inside of the continue testing and more points inside of the green and grey area, which are acceptable. MTTR = 31/
+![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/ba4ddf57-a670-464e-8da8-232572ef397d)
+
+Taking the MTTR of 0.0430 intervals per failure and doubling it produced the figure below. Showing 
+![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/488c05fd-7358-4cc5-9852-1557dcc9acea)
 
 # 
 
