@@ -8,7 +8,6 @@
 |                |  Nur-Alhuda Ali   |
 |                |  Brandon Lac   |
 |                |  Mevin Moncy   |
-|                |  Kate Reimann   |
 
 # Introduction
 
@@ -25,6 +24,10 @@ The subsequent sections of this report will outline the objectives, testing tool
 
 ## Graph Showing The Top 2 Models Using All the Data
 ![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/a4508cf7-74c1-4e4d-8fef-f0f31f4e029c)
+
+## Graph of the intensity
+![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/23db4206-a574-4eb4-b323-96225355d727)
+
 
 In selecting an optimal model for software reliability from a set of candidates, Akaike's Information Criterion (AIC) and Bayesian Information Criterion (BIC) are essential metrics. AIC seeks a model that fits the data well without overcomplicating it, applying a constant penalty for each additional parameter. It's preferred when the focus is on the model’s goodness of fit, especially with larger data sets where overfitting is less of a concern.
 
@@ -53,6 +56,9 @@ Disadvantages of Reliablity Growth Models:
 3. Diminishing returns as the system matures, the cost of achieving additional reliablity is extensive, outweighing the benefits.
 # Assessment Using Reliability Demonstration Chart 
 
+For the purposes of the assignment, values of Developer's Risk α (0.1), User's Risk β (0.1), and Discrimination Ratio γ (2) were left as the default. 
+
+
 # 
 
 # Comparison of Results
@@ -60,9 +66,18 @@ Disadvantages of Reliablity Growth Models:
 # Discussion on Similarity and Differences of the Two Techniques
 
 # How the team work/effort was divided and managed
-
+The work was divided into the two parts of Reliability Growth Testing done by Brandon and Mustayeen. The second part of Reliability Demonstration Chart anaylsis was done by Nur and Mevin. We all worked on the report together and then complied onto github for submission.
 # 
 
 # Difficulties encountered, challenges overcome, and lessons learned
+The first difficulity that was incountered was getting SRTAT to open, we faced errors in the data not being in the correct format and then was forced to use the C-SFRAT tool and did. As shown in the figure below.
+![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/413c8bf0-1ef6-4e60-99f0-ceb91165b85f)
 
+
+The interpretation of the data was another difficulity that we had to overcome. We spent many hours researching if the other columns could be used for calculating the inter failure time and understanding the data. By overcoming these challenges, our team not only enhanced our technical skills in software reliability analysis but also developed a better appreciation for the nuances of empirical research in software engineering. This experience will undoubtedly aid us in future projects, where data interpretation and tool compatibility will play essential roles in the successful execution of our assignments.
+
+A lesson learnt from this assignment was that there are different intrepeations of which metric to use in order to find the best model that fits the failure data. There are pros and cons of each and all of the interperations are correct provided that there is a sound explaination.
+
+The second difficulity was we
 # Comments/feedback on the lab itself
+The data itself was confusing at first to read through and to interpret, we decided to use the time interval as a constant and assumed that the failures were uniformly distrubuted within the time interval in order to find the time between failures. We would suggest that the assignment would specified this as it was a road block for us.
