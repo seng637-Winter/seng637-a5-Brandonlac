@@ -93,7 +93,6 @@ Advantages
 Disadvantages
 1. Dependent on the quaility of the data, with poor data, this would affect the discussion making of the people analyzing it.
 2. Setting the wrong parameters can lead to different results, thus being sensitive to the assessment of the SRE (site reliablity engineers) in inputting the correct parameters.
-3.  
 
 # Comparison of Results
 
