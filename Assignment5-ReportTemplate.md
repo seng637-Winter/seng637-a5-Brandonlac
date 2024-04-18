@@ -35,6 +35,8 @@ BIC, conversely, imposes a stricter penalty that increases with sample size, fav
 
 As depicted in the table, DW3 with covariates F and GM with covariate F gave the lowest scores for AIC and BIC. Thus being the most predictable for failure. With score of 122.199 (AIC), 127.935 (BIC) for DW3 Discrete Weibull Type 3 model covariant F and 125.323 (AIC), 129.625 (BIC) for GM Geometric Model. 
 
+Both of the best models predicted the same amount of failures within the 31 intervals. MTTR = 92/31 = 0.33 intervals per failure.
+
 ## Range analysis  
 
 The range analysis was done using excel for Laplace calculations, the useful range of data was found to be roughly 80% mostly exclusing the outer boundaries of the failture data. This is probably due to the infancy stage and the wear out stage of the software development reliability, also known as the bathtub curve. The Laplace graph showed that at the beginning the failure rate was high and then a slow decrease showing that the system became more reliable and then an decrease of reliability later on after interval 18. This can also be seen in the frequency graph shown above.
@@ -95,8 +97,21 @@ Disadvantages
 
 # Comparison of Results
 
+Comparsion of the results from Reliablity Growth Testing and Reliablity Demonstration Chart, the Reliablity Growth Testing gave a MTTF of the same as the raw data. While using the Reliablity Demonstration Chart give a MTTF of 0.0430. We can see from the data of RDC that the system is not reliable given the parameters of risk.
+
+Reliablity Growth Testing allows for the SREs to model the data and being able to pick a model that would best represent the observed data and apply it to other testing or products. While using the Reliablity Demonstration Chart, it allows for a visual representation of the intervals and what changes need to be made to allow for the system to be acceptable. 
+
+In conjuction, both of these methods would give the engineers running the analysis a better picture of how to proceed with resource allocation, weaknesses. 
 
 # Discussion on Similarity and Differences of the Two Techniques
+
+Similarities
+1. Both of the methods help engineers understand the failure data better and to make adjustments  to the weakness of the product at given times throughout the lifecycle or testing.
+2. Relies on having quality failure data
+
+Differences
+1. RGT is a predictive method of modeling the failure data for future testing and enchancements. While RDC allows for visual representation of the data in which intervals are acceptable given the risk allocations.
+2. RDC allows for the allocation of risk while RGT allows for the allocation of effort for finding the failures.
 
 # How the team work/effort was divided and managed
 The work was divided into the two parts of Reliability Growth Testing done by Brandon and Mustayeen. The second part of Reliability Demonstration Chart anaylsis was done by Nur and Mevin. We all worked on the report together and then complied onto github for submission.
