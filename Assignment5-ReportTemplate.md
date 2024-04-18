@@ -37,7 +37,8 @@ As depicted in the table, DW3 with covariates F and GM with covariate F gave the
 
 ## Range analysis  
 
-The range analysis was done using excel for Laplace calculations, the useful range of data was found to be roughly 80% mostly exclusing the outer boundaries of the failture data. This is probably due to the infancy stage and the wear out stage of the software development reliablity, also known as the bathtub curve.
+The range analysis was done using excel for Laplace calculations, the useful range of data was found to be roughly 80% mostly exclusing the outer boundaries of the failture data. This is probably due to the infancy stage and the wear out stage of the software development reliability, also known as the bathtub curve. The Laplace graph showed that at the beginning the failure rate was high and then a slow decrease showing that the system became more reliable and then an decrease of reliability later on after interval 18. This can also be seen in the frequency graph shown above.
+
 
 ## A discussion on decision making given a target failure rate
 
@@ -58,16 +59,18 @@ Disadvantages of Reliablity Growth Models:
 
 For the purposes of the assignment, values of Developer's Risk α (0.1), User's Risk β (0.1), and Discrimination Ratio γ (2) were left as the default. 
 
-![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/329016f5-a807-450e-9a15-699cf5c9b3de)
+![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/ea05e86b-cd20-4a96-8727-8423dcb4e0e6)
 
 
 The failures was broken down uniformly within the interval as shown in the table above. For the first interval, there were 2 failure counts thus the time between failure was 0.5 for each. The second interval had 11 failures, evenly distributed would be 0.09 interval between each failure. 
 
-![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/916cd402-0a20-4d05-ac12-370047e55bbe)
+![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/329016f5-a807-450e-9a15-699cf5c9b3de)
+
 
 Plotting the original data with zero of the data points being acceptable, with the acceptable failures of 92 failures per 31 intervals. MTTR = 31/ 92 = 0.33 intervals per failure being the acceptable rate. As shown in the figure above.
 
 ![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/a98106de-15ad-48e4-a70b-321fba49085c)
+
 
 Finding the minimum MTTR involved changing the maximum number of failures in order to make all the points of the data from SUT (System Under Test) outside of the unacceptable range. By trial and error, we acheived this by setting the acceptable range of 720 failures over 31 intervals. MTTR = 31/720 = 0.0430 intervals per failure being the acceptable rate. FIO = 720 / 31 = 23 failures per interval. As shown in the figure above.
 
@@ -79,9 +82,19 @@ Taking the MTTR of 0.0430 intervals per failure and halving it produced the figu
 ![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/488c05fd-7358-4cc5-9852-1557dcc9acea)
 Taking the MTTR of 0.0430 intervals per failure and doubling it produced the figure above. Showing now that the points mainly at the begining of the testing and at the end produced points in the non-acceptable range. The MTTR = 31/ 360 = 0.0861 intervals per failure. This makes sense as there is a higher rate of acceptance.
 
-# 
+# Advantages and Disadvantages of RDC
+Advantages
+1. Allows for bussiness to set the risk associated with failure in respects to developers and users in order to better address the product and its offering to the particular market.
+2. Quantify how close a product is in order for it to be suitable in respects to the risk allocated.
+3. Visually identify where the product is failing within the interval and being able to allocate more resources to fix a certain stage of the product.
+
+Disadvantages
+1. Dependent on the quaility of the data, with poor data, this would affect the discussion making of the people analyzing it.
+2. Setting the wrong parameters can lead to different results, thus being sensitive to the assessment of the SRE (site reliablity engineers) in inputting the correct parameters.
+3.  
 
 # Comparison of Results
+
 
 # Discussion on Similarity and Differences of the Two Techniques
 
@@ -91,6 +104,7 @@ The work was divided into the two parts of Reliability Growth Testing done by Br
 
 # Difficulties encountered, challenges overcome, and lessons learned
 The first difficulity that was incountered was getting SRTAT to open, we faced errors in the data not being in the correct format and then was forced to use the C-SFRAT tool and did. As shown in the figure below. The cumulative time was calculated by adding the previous time and the time between failure.
+
 ![image](https://github.com/seng637-Winter/seng637-a5-Brandonlac/assets/19726423/413c8bf0-1ef6-4e60-99f0-ceb91165b85f)
 
 
